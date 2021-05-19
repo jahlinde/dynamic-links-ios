@@ -28,6 +28,11 @@
 		DE43B5C423AEBA710056B15F /* FIREGHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DE43B5C023AEBA690056B15F /* FIREGHelper.m */; };
 		DE43B5C523AEBA760056B15F /* FIREGSignInHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DE43B5BF23AEBA690056B15F /* FIREGSignInHelper.m */; };
 		EA1ECAD326551206009B8EA9 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = EA1ECAD226551206009B8EA9 /* FirebaseDynamicLinks */; };
+		EA1ECAD526552D2B009B8EA9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA1ECAD426552D2B009B8EA9 /* GoogleService-Info.plist */; };
+		EA1ECAD626552D2B009B8EA9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA1ECAD426552D2B009B8EA9 /* GoogleService-Info.plist */; };
+		EA1ECAD726552D2B009B8EA9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA1ECAD426552D2B009B8EA9 /* GoogleService-Info.plist */; };
+		EA1ECAD826552D2B009B8EA9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA1ECAD426552D2B009B8EA9 /* GoogleService-Info.plist */; };
+		EA1ECAD926552D2B009B8EA9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA1ECAD426552D2B009B8EA9 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +93,7 @@
 		DE43B5C023AEBA690056B15F /* FIREGHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIREGHelper.m; sourceTree = "<group>"; };
 		DE43B5C123AEBA690056B15F /* FIREGSignInHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIREGSignInHelper.h; sourceTree = "<group>"; };
 		DED65CF723E9DE6400461312 /* FIREGSignInInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FIREGSignInInfo.h; sourceTree = "<group>"; };
+		EA1ECAD426552D2B009B8EA9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +165,7 @@
 		5F5A53431ADE670C00F81DF0 = {
 			isa = PBXGroup;
 			children = (
+				EA1ECAD426552D2B009B8EA9 /* GoogleService-Info.plist */,
 				5F5A534E1ADE670C00F81DF0 /* DynamicLinksExample */,
 				5F5A537A1ADE67D500F81DF0 /* DynamicLinksExampleSwift */,
 				10AF4D471DD3E7660096D192 /* DynamicLinksExampleTests */,
@@ -406,6 +413,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA1ECAD826552D2B009B8EA9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +421,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA1ECAD926552D2B009B8EA9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +429,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA1ECAD726552D2B009B8EA9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +438,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F99610C1AE0CF4F0034F503 /* LaunchScreen.xib in Resources */,
+				EA1ECAD526552D2B009B8EA9 /* GoogleService-Info.plist in Resources */,
 				5F99610A1AE0CF4F0034F503 /* Images.xcassets in Resources */,
 				5F5A535B1ADE670C00F81DF0 /* Main.storyboard in Resources */,
 			);
@@ -438,6 +449,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F99610D1AE0CF4F0034F503 /* LaunchScreen.xib in Resources */,
+				EA1ECAD626552D2B009B8EA9 /* GoogleService-Info.plist in Resources */,
 				5F5A539C1ADE69AA00F81DF0 /* Main.storyboard in Resources */,
 				5F99610B1AE0CF4F0034F503 /* Images.xcassets in Resources */,
 			);
@@ -804,14 +816,14 @@
 				CODE_SIGN_ENTITLEMENTS = DynamicLinksExample/DynamicLinksExample.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = H3N44P4Y7Y;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/DynamicLinksExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.google.firebase.quickstart.DynamicLinksExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.volvocars.dynamicLinkTest;
 				PRODUCT_NAME = DynamicLinksExample;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -827,14 +839,14 @@
 				CODE_SIGN_ENTITLEMENTS = DynamicLinksExample/DynamicLinksExample.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = H3N44P4Y7Y;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/DynamicLinksExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.google.firebase.quickstart.DynamicLinksExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.volvocars.dynamicLinkTest;
 				PRODUCT_NAME = DynamicLinksExample;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
@@ -848,13 +860,13 @@
 				CODE_SIGN_ENTITLEMENTS = DynamicLinksExample/DynamicLinksExample.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = H3N44P4Y7Y;
 				INFOPLIST_FILE = "$(SRCROOT)/DynamicLinksExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.google.firebase.quickstart.DynamicLinksExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.volvocars.dynamicLinkTest;
 				PRODUCT_NAME = DynamicLinksExample;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -869,13 +881,13 @@
 				CODE_SIGN_ENTITLEMENTS = DynamicLinksExample/DynamicLinksExample.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = H3N44P4Y7Y;
 				INFOPLIST_FILE = "$(SRCROOT)/DynamicLinksExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.google.firebase.quickstart.DynamicLinksExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.volvocars.dynamicLinkTest;
 				PRODUCT_NAME = DynamicLinksExample;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
